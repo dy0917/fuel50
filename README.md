@@ -31,6 +31,12 @@ npm install -g serve
 serve -s dist
 ```
 
+### extra functions
+```
+artist filter function
+artist delete function
+```
+
 ### Further development
 ```
 This project is built Vue2, vue-bootstrap and Typescript. It is a simple project with a dashboard page.
