@@ -1,0 +1,87 @@
+.ff_sidebar{
+  background-color: darkcyan;
+}
+
+.nav-logo {
+  height: 40px;
+}
+
+.sidenav {
+  color: white;
+  background-color: darkslategrey!important;
+  height: 100vh;
+}
+
+
+.router-link-exact-active{
+  background-color: mediumaquamarine;
+  border-left-color: white;
+  border-left-style: solid;
+  border-left-width:3px;
+}
+.nav-link{
+  color: white;
+}
+
+.ff-background{
+  background-color: lightgray;
+  background-image: url(../ff_logo.svg) ,url(../ff_logo.svg);
+  background-position:
+          top 0px left 300px,
+          bottom 0px right 300px;
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+}
+
+.block {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.circle {
+  background: red;
+  border-radius: 200px;
+  color: white;
+  height: 200px;
+  font-weight: bold;
+  width: 200px;
+  display: table;
+  margin: 20px auto;
+  border:solid 4px ;
+  border-color: white;
+}
+.circle p {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+.card-header {
+  background-color: white;
+}
+.ff_top_music{
+  background-color: white;
+}
+
+.ff_top_music > .nav-item > a {
+  color: black;
+}
+
+.nav-tabs .nav-link.active{
+  background-color: rgba(172,236,255,0.34);
+  border-bottom-color: lightblue!important;
+  border-bottom-style: solid!important;
+  border-bottom-width:2px!important;
+}
+
+.ff-rounded-pill > button {
+  border-radius: 50rem !important;
+}
+
+.ff-rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.table-header {
+  color: lightgray;
+}
