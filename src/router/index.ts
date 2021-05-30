@@ -1,11 +1,8 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import Home from "../pages/Home.vue";
 import DashBoard from "../components/layout/DashBoard.vue";
-import About from "../pages/About.vue";
+import MainDashboard from "../pages/MainDashboard.vue";
 
-console.log('Home',Home);
-console.log('DashBoard',DashBoard);
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -20,7 +17,7 @@ const routes: Array<RouteConfig> = [
       {
         path: "/",
         name: "overview.main",
-        component: About
+        component: MainDashboard
       },
       {
         path: "animals",

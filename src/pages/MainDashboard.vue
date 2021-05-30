@@ -135,7 +135,7 @@
         }
       },
       dollarFormat(){
-        return (number)=>{
+        return (number:any)=>{
              return number.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
         }
       },
@@ -150,7 +150,7 @@
       disMissAlert(){
         this.welcomeInfo = false
       },
-      removeArtist(artist){
+      removeArtist(artist:any){
         this.$store.commit('removeArtist',artist);
       }
     }

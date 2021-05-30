@@ -28,7 +28,7 @@ export default new Vuex.Store({
     ]
   },
   mutations: {
-    removeArtist(state, artist){
+    removeArtist(state, artist:any){
       const index = state.artists.findIndex((thisArtist)=>{
         return thisArtist.id===artist.id;
       });
